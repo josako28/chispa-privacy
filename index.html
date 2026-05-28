@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Spark — Información Legal</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+      background: #f9f9fb;
+      color: #1a1a2e;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 40px 24px;
+    }
+    .logo { font-size: 56px; margin-bottom: 12px; text-align: center; }
+    h1 {
+      font-size: 2rem; font-weight: 800;
+      color: #e94560; margin-bottom: 8px; text-align: center;
+    }
+    .subtitle {
+      color: #888; font-size: 1rem; margin-bottom: 48px; text-align: center;
+    }
+    .cards {
+      display: flex; flex-direction: column; gap: 20px;
+      width: 100%; max-width: 480px;
+    }
+    a.card {
+      background: #fff; border: 1px solid #e0e0ef; border-radius: 16px;
+      padding: 28px 32px; text-decoration: none; color: inherit;
+      display: flex; align-items: center; gap: 20px;
+      transition: box-shadow 0.2s, transform 0.2s;
+    }
+    a.card:hover {
+      box-shadow: 0 8px 32px rgba(233,69,96,0.12);
+      transform: translateY(-2px);
+    }
+    .card-icon {
+      width: 52px; height: 52px; border-radius: 14px;
+      background: linear-gradient(135deg, #e94560, #c2185b);
+      display: flex; align-items: center; justify-content: center;
+      font-size: 24px; flex-shrink: 0;
+    }
+    .card-text h2 { font-size: 1.1rem; font-weight: 700; margin-bottom: 4px; }
+    .card-text p  { font-size: 0.88rem; color: #888; line-height: 1.5; }
+    footer {
+      margin-top: 48px; font-size: 0.82rem; color: #bbb; text-align: center;
+    }
+    footer a { color: #e94560; text-decoration: none; }
+  </style>
+</head>
+<body>
+  <div class="logo">💋</div>
+  <h1>Spark</h1>
+  <p class="subtitle">Información legal de la aplicación</p>
+
+  <div class="cards">
+    <a class="card" href="privacy-policy.html">
+      <div class="card-icon">🔒</div>
+      <div class="card-text">
+        <h2>Política de Privacidad</h2>
+        <p>Cómo recogemos, usamos y protegemos tus datos personales. Cumplimiento RGPD y LOPD-GDD.</p>
+      </div>
+    </a>
+    <a class="card" href="terms-and-conditions.html">
+      <div class="card-icon">📋</div>
+      <div class="card-text">
+        <h2>Términos y Condiciones de Uso</h2>
+        <p>Normas de uso, derechos y obligaciones de los usuarios de la aplicación Spark.</p>
+      </div>
+    </a>
+  </div>
+
+  <footer>
+    <p>© 2026 Spark · José López Gómez · <a href="mailto:joselogo48@gmail.com">joselogo48@gmail.com</a></p>
+  </footer>
+</body>
+</html>
