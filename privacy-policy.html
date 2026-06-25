@@ -107,7 +107,7 @@
 
 <header>
   <h1>Política de Privacidad</h1>
-  <p>Aplicación <strong>Chispa</strong> &nbsp;|&nbsp; Última actualización: 28 de mayo de 2026</p>
+  <p>Aplicación <strong>Chispa</strong> &nbsp;|&nbsp; Última actualización: 25 de junio de 2026</p>
 </header>
 
 <main>
@@ -142,7 +142,7 @@
     <div class="contact-box">
       <p><strong>Titular:</strong> José López Gómez</p>
       <p><strong>Correo electrónico de contacto:</strong> joselogo48@gmail.com</p>
-      <p><strong>Identificador de la aplicación:</strong> com.chispa.dating</p>
+      <p><strong>Identificador de la aplicación:</strong> com.calimber.chispa</p>
       <p><strong>Plataforma de distribución:</strong> Google Play Store</p>
     </div>
   </section>
@@ -152,7 +152,7 @@
     <h2>2. Ámbito de aplicación y destinatarios</h2>
     <p>La presente Política de Privacidad regula el tratamiento de datos personales que <strong>Chispa</strong> (en adelante, «la Aplicación», «nosotros» o «el Responsable») lleva a cabo en relación con los usuarios que descargan, instalan y utilizan la Aplicación en dispositivos móviles Android.</p>
     <p>Chispa es una aplicación de citas y encuentros sociales destinada exclusivamente a personas mayores de 18 años. Su uso implica la aceptación íntegra de esta Política de Privacidad y de los Términos y Condiciones de Uso.</p>
-  <p>Última actualización: <strong>28 de mayo de 2026</strong> — Se ha añadido Cloudinary (apartado 7.5) como encargado del tratamiento para el almacenamiento de imágenes y audios.</p>
+  <p>Última actualización: <strong>25 de junio de 2026</strong> — Se han añadido los datos del contacto de emergencia y la función SOS (apartados 3.7, 4, 8 y 13), y el uso de Sightengine para la verificación de perfil (apartado 7.2). Se corrige además el identificador de la aplicación indicado en el apartado 1.</p>
   </section>
 
   <!-- 3 -->
@@ -194,6 +194,10 @@
 
     <h3>3.5 Datos de inicio de sesión con terceros</h3>
     <p>Si el usuario opta por iniciar sesión mediante Google Sign-In, recibiremos el nombre público, la dirección de correo electrónico y el identificador de cuenta de Google, de conformidad con la política de privacidad de Google LLC.</p>
+
+    <h3>3.6 Datos del contacto de emergencia (función SOS)</h3>
+    <p>Si el usuario configura un contacto de emergencia, trataremos el nombre, el número de teléfono y, opcionalmente, un mensaje personalizado de dicho contacto, facilitados voluntariamente por el propio usuario. El usuario garantiza contar con el consentimiento de su contacto de emergencia para facilitar estos datos a la Aplicación.</p>
+    <p>Al activar la función SOS, la ubicación GPS exacta del usuario en ese momento, junto con el mensaje configurado, se envía mediante SMS al número de teléfono indicado. A diferencia del resto de la Aplicación (véase el apartado 13), en este caso sí se comparte la ubicación exacta, exclusivamente con el contacto designado por el propio usuario y solo en el momento en que este activa voluntariamente esta función de seguridad.</p>
   </section>
 
   <!-- 4 -->
@@ -235,6 +239,10 @@
         <tr>
           <td>Moderación automática de imágenes para detectar contenido inapropiado</td>
           <td>Interés legítimo en garantizar un entorno seguro (art. 6.1.f)</td>
+        </tr>
+        <tr>
+          <td>Almacenamiento del contacto de emergencia y envío de ubicación exacta por SMS (función SOS)</td>
+          <td>Consentimiento del usuario e interés vital (art. 6.1.a y 6.1.d)</td>
         </tr>
         <tr>
           <td>Actualización de la ubicación en primer plano al abrir la Aplicación</td>
@@ -283,8 +291,8 @@
     <p><strong>Política de privacidad:</strong> <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">https://policies.google.com/privacy</a></p>
 
     <h3>7.2 Sightengine</h3>
-    <p><strong>Servicio utilizado:</strong> Moderación automatizada de imágenes para detectar y filtrar contenido explícito, violento o inapropiado antes de que sea visible para otros usuarios.</p>
-    <p><strong>Datos compartidos:</strong> Las imágenes de perfil son enviadas a la API de Sightengine para su análisis. Las imágenes no son almacenadas por Sightengine más allá del tiempo necesario para el análisis.</p>
+    <p><strong>Servicio utilizado:</strong> Moderación automatizada de imágenes para detectar y filtrar contenido explícito, violento o inapropiado antes de que sea visible para otros usuarios. Este mismo servicio se utiliza también para la función opcional de verificación de perfil, comprobando que la fotografía tomada en el momento (selfie) contiene un rostro real.</p>
+    <p><strong>Datos compartidos:</strong> Las imágenes de perfil, y la fotografía tomada en el momento para la verificación de perfil, son enviadas a la API de Sightengine para su análisis. Las imágenes no son almacenadas por Sightengine más allá del tiempo necesario para el análisis.</p>
     <p><strong>Política de privacidad:</strong> <a href="https://sightengine.com/privacy-policy" target="_blank" rel="noopener">https://sightengine.com/privacy-policy</a></p>
 
     <h3>7.3 Expo (Expo Inc.)</h3>
@@ -326,6 +334,10 @@
         <tr>
           <td>Mensajes de chat</td>
           <td>Mientras ambos usuarios mantengan el match activo; se eliminan al deshacer el match o al eliminar la cuenta</td>
+        </tr>
+        <tr>
+          <td>Datos del contacto de emergencia (nombre, teléfono, mensaje)</td>
+          <td>Mientras la cuenta permanezca activa; se eliminan al borrar el contacto de emergencia desde el perfil o al eliminar la cuenta</td>
         </tr>
         <tr>
           <td>Datos de ubicación</td>
@@ -413,7 +425,8 @@
       <li>Mostrar la ciudad o localidad asociada al perfil del usuario.</li>
     </ul>
     <p>La Aplicación <strong>no accede a la ubicación en segundo plano</strong> (<em>background location</em>) cuando no está activa.</p>
-    <p>Las coordenadas exactas del usuario <strong>nunca son visibles para otros usuarios</strong>; únicamente se muestra la distancia aproximada (en kilómetros) y la ciudad o localidad, con el fin de proteger la privacidad de cada persona.</p>
+    <p>Las coordenadas exactas del usuario <strong>nunca son visibles para otros usuarios de la Aplicación</strong>; únicamente se muestra la distancia aproximada (en kilómetros) y la ciudad o localidad, con el fin de proteger la privacidad de cada persona.</p>
+    <p><strong>Excepción — función SOS:</strong> si el usuario activa voluntariamente el botón de emergencia, su ubicación exacta en ese momento se comparte mediante SMS con el contacto de emergencia que el propio usuario haya configurado (véase el apartado 3.6). Esta es la única circunstancia en la que se comparte la ubicación exacta, y solo ocurre por una acción deliberada del usuario en una situación de emergencia.</p>
     <p>El permiso de ubicación puede ser revocado en cualquier momento desde los ajustes del dispositivo. La revocación no impedirá el uso general de la Aplicación, aunque sí limitará la funcionalidad de búsqueda por proximidad.</p>
   </section>
 
@@ -455,7 +468,7 @@
 
 <footer>
   <p>© 2026 Chispa. Todos los derechos reservados.</p>
-  <p style="margin-top:6px;">Política de Privacidad – versión 1.0 – Última actualización: 28 de mayo de 2026</p>
+  <p style="margin-top:6px;">Política de Privacidad – versión 1.1 – Última actualización: 25 de junio de 2026</p>
 </footer>
 
 </body>
